@@ -44,6 +44,7 @@ void DrawMain()
     for (int x = -100; x <= 100; x+=10) {
         DrawCircle(x, 0, 150, kColorRed);
     }
+    //[2023/10/26 14:53] コメント文章追加
     
 }
 
