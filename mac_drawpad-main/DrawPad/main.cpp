@@ -27,6 +27,9 @@ void DrawMain()
         DrawCircle(x, 0, 150, kColorGreen);
     }
 
+    //Drawing the Circle Red. x = 200, y = 10
+    DrawCircle(200, 10, 300, kColorRed);
+    
     DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, 22, kColorYellow);
