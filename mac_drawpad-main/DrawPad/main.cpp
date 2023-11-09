@@ -30,17 +30,17 @@ void DrawMain()
     //Drawing the Circle Red. x = 200, y = 10
     DrawCircle(200, 10, 300, kColorRed);
     
-    DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
+    DrawText("My name is Keishi Fujiwara", -12*14/2, 44, kColorWhite);
     Sleep(0.5f);
-    DrawText("Hello, world!!", -12*14/2, 22, kColorYellow);
+    DrawText("My name is Keishi Fujiwara", -12*14/2, 22, kColorYellow);
     Sleep(0.5f);
-    DrawText("Hello, world!!", -12*14/2, 0, kColorGreen);
+    DrawText("My name is Keishi Fujiwara", -12*14/2, 0, kColorGreen);
     Sleep(0.5f);
-    DrawText("Hello, world!!", -12*14/2, -22, kColorBlue);
+    DrawText("My name is Keishi Fujiwara", -12*14/2, -22, kColorBlue);
     Sleep(0.5f);
-    DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
+    DrawText("My name is Keishi Fujiwara", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
-    DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+    DrawText("My name is Keishi Fujiwara", -12*14/2, -66, kColorGray);
     for (int x = -100; x <= 100; x+=10) {
         DrawCircle(x, 0, 150, kColorRed);
     }
